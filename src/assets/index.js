@@ -18,12 +18,20 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import bootstrap from "./tech/bootstrap.png";
+import firebase from "./tech/firebase.png";
+import mui from "./tech/mui.png";
+import nextJS from "./tech/nextJS.png";
+import express from "./tech/express.png";
+import netlify from "./tech/netlify.png";
+import restAPI from "./tech/restAPI.png";
+import vercel from "./tech/vercel.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import mass from "./company/mass.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -31,6 +39,13 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  bootstrap,
+  netlify,
+  restAPI,
+  vercel,
+  nextJS,
+  mui,
+  firebase,
   logo,
   backend,
   creator,
@@ -47,14 +62,15 @@ export {
   javascript,
   mongodb,
   nodejs,
+  express,
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
   meta,
   shopify,
   starbucks,
+  mass,
   tesla,
   carrent,
   jobit,
