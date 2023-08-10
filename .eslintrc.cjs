@@ -1,3 +1,4 @@
+// import PropTypes from 'prop-types'
 module.exports = {
   root: true,
   env: {
@@ -20,6 +21,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react/no-unknown-property": ['error', { ignore: ['css'] }],
   },
 }
