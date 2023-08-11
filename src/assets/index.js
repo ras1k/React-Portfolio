@@ -27,6 +27,7 @@ import netlify from "./tech/netlify.png";
 import restAPI from "./tech/restAPI.png";
 import vercel from "./tech/vercel.png";
 import threejs from "./tech/threejs.svg";
+import live from './www.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +38,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import summer from './summer-camp.png';
+import bistro from './bistro-boss.png';
+import quiz from './quiz-hero.png';
+import chef from './chef-hunter.png';
+import kidzee from './kidzee-toy.png';
 
 export {
   bootstrap,
@@ -75,4 +82,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  kidzee,
+  summer,
+  bistro,
+  quiz,
+  chef,
+  live
 };

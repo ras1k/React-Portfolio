@@ -25,10 +25,16 @@ import {
     vercel,
     github,
     mass,
-    carrent,
+    // carrent,
     jobit,
     tripguide,
     threejs,
+    kidzee,
+    summer,
+    chef,
+    bistro,
+    quiz,
+    live,
   } from "../assets";
   
   export const navLinks = [
@@ -138,7 +144,7 @@ import {
       company_name: "Mass Group",
       icon: mass,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - April 2022",
       points: [
         "Developing and maintaining web applications using HTML, CSS & Php.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -216,13 +222,17 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Summer Camp School",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage musical classes from various instructors, providing a convenient and efficient solution for free time in summer break.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "orange-text-gradient",
         },
         {
           name: "mongodb",
@@ -233,50 +243,57 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: summer,
+      source_code_link: "https://github.com/ras1k/Summer-camp-school",
+      live_site_link: "https://summer-school-camp-a853f.web.app/"
     },
     {
-      name: "Job IT",
+      name: "Quiz Hero",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that allows users to participate in a javascript quiz test and evaluate test.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quiz,
+      source_code_link: "https://github.com/ras1k/quiz-hero-javascript",
+      live_site_link: "https://quiz-hero-javascript.netlify.app/"
+    },
+    {
+      name: "Bistro Boss Restaurant",
+      description:
+        "A comprehensive restaurant website that allows users to view full menu & book foods & pay online",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "tailwind css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bistro,
+      source_code_link: "https://github.com/ras1k/bistro-boss-client",
+      live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
     },
   ];
   
