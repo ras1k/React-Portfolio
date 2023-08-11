@@ -10,6 +10,7 @@ import Works from './components/Works/Works'
 import Feedbacks from './components/Feedbacks/Feedbacks'
 import Contacts from './components/Contacts/Contacts'
 import StarsCanvas from './components/canvas/Stars/StarsCanvas'
+import Education from './components/Education/Education'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         </div>
         <About />
         <Experience />
+        <Education />
         {/* <Tech /> */}
         <Works />
         <Feedbacks />

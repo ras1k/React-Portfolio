@@ -26,15 +26,17 @@ import {
     github,
     mass,
     // carrent,
-    jobit,
-    tripguide,
+    // jobit,
+    // tripguide,
     threejs,
     kidzee,
     summer,
     chef,
     bistro,
     quiz,
-    live,
+    modern,
+    taimiya,
+    puc,
   } from "../assets";
   
   export const navLinks = [
@@ -45,6 +47,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -192,6 +198,45 @@ import {
     //   ],
     // },
   ];
+  const educations = [
+    {
+      title: "Secondary School",
+      school_name: "Comilla Modern High School",
+      icon: modern,
+      iconBg: "#383E56",
+      date: "2009 - 2014",
+      points: [
+        "SSC",
+        "Science Group",
+        "Got Scholarship",
+      ],
+    },
+    {
+      title: "Higher Secondary School",
+      school_name: "Ibn Taimiya School & College",
+      icon: taimiya,
+      iconBg: "#E6DEDD",
+      date: "2014 - 2016",
+      points: [
+        "HSC",
+        "Science Group",
+      ],
+    },
+    {
+      title: "Undergrad School",
+      school_name: "Premier University, Chittagong",
+      icon: puc,
+      iconBg: "#383E56",
+      date: "2017 - 2022",
+      points: [
+        "Bachelor Of Science in Computer Science & Engineering",
+        "Programming",
+        "Artificial Intelligence",
+        "Graduation",
+      ],
+    },
+
+  ];
   
   const testimonials = [
     {
@@ -295,6 +340,32 @@ import {
       source_code_link: "https://github.com/ras1k/bistro-boss-client",
       live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
     },
+    {
+      name: "Kidzee - A Toy Marketplace",
+      description:
+        "A comprehensive toy marketplace marketplace that allows users to create their product list & showcase it to users.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: kidzee,
+      source_code_link: "https://github.com/ras1k/toy-marketplace/",
+      live_site_link: "https://toy-marketplace-b19a0.web.app/"
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations };
