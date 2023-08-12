@@ -366,6 +366,28 @@ import {
       source_code_link: "https://github.com/ras1k/toy-marketplace/",
       live_site_link: "https://toy-marketplace-b19a0.web.app/"
     },
+    {
+      name: "Chef Advisor",
+      description:
+        "A front-end web application that allows users to view famous chef & their recipe.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: chef,
+      source_code_link: "https://github.com/ras1k/chef-hunter",
+      live_site_link: "https://chef-hunter-66aa0.web.app/"
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, educations };
