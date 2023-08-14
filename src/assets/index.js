@@ -50,6 +50,10 @@ import quiz from './quiz-hero.png';
 import chef from './chef-hunter.png';
 import kidzee from './kidzee-toy.png';
 
+import enan from './testimonials/enan.jpg';
+import fahad from './testimonials/fahad.jpg';
+import akib from './testimonials/akib.jpg';
+
 export {
   bootstrap,
   netlify,
@@ -96,4 +100,7 @@ export {
   modern,
   taimiya,
   puc,
+  enan,
+  fahad,
+  akib
 };

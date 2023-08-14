@@ -37,6 +37,9 @@ import {
     modern,
     taimiya,
     puc,
+    enan,
+    fahad,
+    akib,
   } from "../assets";
   
   export const navLinks = [
@@ -242,26 +245,26 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Moammer Fershid Enan",
+      designation: "Web Developer",
+      company: "TalentPro",
+      image: enan,
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Fahad Bin Munir",
+      designation: "Ful Stack Developer",
+      company: "Fluent Conveyors",
+      image: fahad,
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Abdul Kadher Akib",
+      designation: "Founder & CEO",
+      company: "ICT School & Top5Way",
+      image: akib,
     },
   ];
   
