@@ -6,6 +6,7 @@ import { styles } from "../../styles";
 import { EarthCanvas } from "../canvas";
 import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
+import Swal from 'sweetalert2/dist/sweetalert2.all.js';
 
 const Contact = () => {
   const formRef = useRef();
@@ -37,9 +38,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Abdullah Bin Malek",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "rasikabdullah@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -47,7 +48,16 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          // alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            title: 'Thank you. I will get back to you as soon as possible.',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+          })
 
           setForm({
             name: "",
@@ -59,7 +69,12 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          // alert("Ahh, something went wrong. Please try again.");
+          Swal.fire({
+            icon: 'error',
+            title: 'Ahh...',
+            text: 'Something went wrong! Please try again.'
+          })
         }
       );
   };
