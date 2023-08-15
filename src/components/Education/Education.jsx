@@ -45,7 +45,7 @@ const Education = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={styles.sectionSubText}>Work Education</p>
+                <p className={styles.sectionSubText}>Education</p>
                 <h2 className={styles.sectionHeadText}>Schools I have attended</h2>
             </motion.div>
 

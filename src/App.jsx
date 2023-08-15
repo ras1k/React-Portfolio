@@ -9,7 +9,7 @@ import Experience from './components/Experience/Experience'
 import Works from './components/Works/Works'
 import Feedbacks from './components/Feedbacks/Feedbacks'
 import Contacts from './components/Contacts/Contacts'
-import StarsCanvas from './components/canvas/Stars/StarsCanvas'
+import { StarsCanvas } from './components/canvas'
 import Education from './components/Education/Education'
 
 function App() {
