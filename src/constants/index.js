@@ -244,7 +244,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Rasik proved me wrong.",
       name: "Moammer Fershid Enan",
       designation: "Web Developer",
       company: "TalentPro",
@@ -252,7 +252,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Rasik does.",
       name: "Fahad Bin Munir",
       designation: "Ful Stack Developer",
       company: "Fluent Conveyors",
@@ -260,7 +260,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Rasik optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Abdul Kadher Akib",
       designation: "Founder & CEO",
       company: "ICT School & Top5Way",

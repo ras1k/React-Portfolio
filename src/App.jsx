@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience'
-import Tech from './components/Tech/Tech'
+// import Tech from './components/Tech/Tech'
 import Works from './components/Works/Works'
 import Feedbacks from './components/Feedbacks/Feedbacks'
 import Contacts from './components/Contacts/Contacts'
@@ -25,7 +25,7 @@ function App() {
         <About />
         <Education />
         <Experience />
-        <Tech />
+        {/* <Tech /> */}
         <Works />
         <Feedbacks />
         <div className='relative z-0'>
