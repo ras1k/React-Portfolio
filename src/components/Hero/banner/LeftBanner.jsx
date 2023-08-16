@@ -5,21 +5,21 @@ import { styles } from "../../../styles";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder_", "MERN Stack Developer_", "UI Designer_", "Content Writer_"],
+    words: ["Programmer_", "MERN Stack Developer_", "UI Designer_", "Content Writer_", "Tech Enthusiast_"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 10,
     delaySpeed: 2500,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full flex flex-col gap-20 mb-0">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         {/* <h1 className="text-6xl font-bold text-white">
           Hi, I&apos;m <span className="text-designColor capitalize">Rasik Abdullah</span>
         </h1> */}
         <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className="text-[#915eff]">Rasik_</span></h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"

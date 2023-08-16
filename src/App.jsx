@@ -11,6 +11,7 @@ import Feedbacks from './components/Feedbacks/Feedbacks'
 import Contacts from './components/Contacts/Contacts'
 import { StarsCanvas } from './components/canvas'
 import Education from './components/Education/Education'
+import Skills from './components/Skills/Skills'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <About />
         <Education />
         <Experience />
+        <Skills />
         {/* <Tech /> */}
         <Works />
         <Feedbacks />

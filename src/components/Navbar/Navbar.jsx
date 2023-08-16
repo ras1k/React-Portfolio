@@ -3,6 +3,7 @@ import { navLinks } from '../../constants'
 import { logo, menu, close } from '../../assets'
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { FaArrowDown } from 'react-icons/fa';
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
@@ -10,18 +11,18 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-          const scrollTop = window.scrollY;
-          if (scrollTop > 100) {
-            setScrolled(true);
-          } else {
-            setScrolled(false);
-          }
+            const scrollTop = window.scrollY;
+            if (scrollTop > 100) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
         };
-    
+
         window.addEventListener("scroll", handleScroll);
-    
+
         return () => window.removeEventListener("scroll", handleScroll);
-      }, []);
+    }, []);
 
     return (
         <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"
@@ -50,7 +51,7 @@ const Navbar = () => {
                             </li>
                         ))
                     }
-                    <a href="https://drive.google.com/u/0/uc?id=1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp&export=download" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
+                    <a href="https://drive.google.com/u/0/uc?id=1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp&export=download" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer flex items-center'>Resume &nbsp; <FaArrowDown /></a>
                 </ul>
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -72,6 +73,8 @@ const Navbar = () => {
                                     </li>
                                 ))
                             }
+                            <a href="https://drive.google.com/u/0/uc?id=1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp&export=download" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer flex items-center'>Resume &nbsp; <FaArrowDown /></a>
+
                         </ul>
 
                     </div>
