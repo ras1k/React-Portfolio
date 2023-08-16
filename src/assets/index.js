@@ -54,6 +54,8 @@ import enan from './testimonials/enan.jpg';
 import fahad from './testimonials/fahad.jpg';
 import akib from './testimonials/akib.jpg';
 
+import bannerImg from './bannerImg.png'
+
 export {
   bootstrap,
   netlify,
@@ -102,5 +104,6 @@ export {
   puc,
   enan,
   fahad,
-  akib
+  akib,
+  bannerImg
 };
