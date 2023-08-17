@@ -40,6 +40,7 @@ import {
     enan,
     fahad,
     akib,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -392,6 +393,32 @@ import {
       image: chef,
       source_code_link: "https://github.com/ras1k/chef-hunter",
       live_site_link: "https://chef-hunter-66aa0.web.app/"
+    },
+    {
+      name: "Developer Portfolio",
+      description:
+        "A simple yet beautifully designed developer portfolio website using modern technologies for beginner wen developers ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "three js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/ras1k/3D-Portfolio",
+      live_site_link: "https://ras1k-portfolio.vercel.app/"
     },
   ];
   

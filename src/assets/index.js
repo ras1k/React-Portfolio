@@ -40,15 +40,13 @@ import taimiya from './school/taimiya.jpg';
 import puc from './school/puc.png';
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import summer from './summer-camp.png';
 import bistro from './bistro-boss.png';
 import quiz from './quiz-hero.png';
 import chef from './chef-hunter.png';
 import kidzee from './kidzee-toy.png';
+import portfolio from './portfolio.png';
+
 
 import enan from './testimonials/enan.jpg';
 import fahad from './testimonials/fahad.jpg';
@@ -90,14 +88,12 @@ export {
   starbucks,
   mass,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   kidzee,
   summer,
   bistro,
   quiz,
   chef,
+  portfolio,
   live,
   modern,
   taimiya,
