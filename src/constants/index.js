@@ -155,10 +155,9 @@ import {
       iconBg: "#383E56",
       date: "March 2021 - April 2022",
       points: [
-        "Developing and maintaining web applications using HTML, CSS & Php.",
+        "Developing and maintaining web applications using HTML, CSS, PHP, JS & JQuery",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     // {
@@ -248,14 +247,16 @@ import {
       name: "Moammer Fershid Enan",
       designation: "Web Developer",
       company: "TalentPro",
+      link:"https://talentpro.global/",
       image: enan,
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rasik does.",
       name: "Fahad Bin Munir",
-      designation: "Ful Stack Developer",
+      designation: "Software Engineer",
       company: "Fluent Conveyors",
+      link: "https://fluentconveyors.com/",
       image: fahad,
     },
     {
@@ -263,7 +264,8 @@ import {
         "After Rasik optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Abdul Kadher Akib",
       designation: "Founder & CEO",
-      company: "ICT School & Top5Way",
+      company: "Top5Way",
+      link: "https://top5way.com/",
       image: akib,
     },
   ];

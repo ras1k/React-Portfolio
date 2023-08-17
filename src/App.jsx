@@ -12,6 +12,8 @@ import Contacts from './components/Contacts/Contacts'
 import { StarsCanvas } from './components/canvas'
 import Education from './components/Education/Education'
 import Skills from './components/Skills/Skills'
+import Footer from './components/Footer/Footer'
+import FooterBottom from './components/Footer/FooterBottom'
 
 function App() {
 
@@ -34,6 +36,8 @@ function App() {
           <Contacts />
           <StarsCanvas />
         </div>
+        <Footer />
+        <FooterBottom />
       </div>
 
     </BrowserRouter>

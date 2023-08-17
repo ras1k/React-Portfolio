@@ -11,6 +11,14 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+        bodyColor: "#212428",
+        lightText: "#c4cfde",
+        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
+        designColor: "#915eff",
+      },
+      fontFamily: {
+        bodyFont: ["Poppins", "sans-serif"],
+        titleFont: ["Montserrat", "sans-serif"],
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",

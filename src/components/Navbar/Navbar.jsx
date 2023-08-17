@@ -3,7 +3,7 @@ import { navLinks } from '../../constants'
 import { logo, menu, close } from '../../assets'
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { FaArrowDown } from 'react-icons/fa';
+
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
@@ -43,15 +43,15 @@ const Navbar = () => {
                     {
                         navLinks.map((link) => (
                             <li key={link.id}
-                                className={`${active === link.title ? 'text-white' : 'text-secondary'
-                                    } hover:text-white text-[18px] font-medium cursor-pointer`}
+                                className={`${active === link.title ? 'text-[#915eff]' : 'text-secondary'
+                                    } hover:text-[#915eff] text-[18px] font-medium cursor-pointer`}
                                 onClick={() => setActive(link.title)}
                             >
                                 <a href={`#${link.id}`}>{link.title}</a>
                             </li>
                         ))
                     }
-                    <a href="https://drive.google.com/u/0/uc?id=1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp&export=download" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer flex items-center'>Resume &nbsp; <FaArrowDown /></a>
+                    <a href="https://drive.google.com/file/d/1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
                 </ul>
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -73,7 +73,7 @@ const Navbar = () => {
                                     </li>
                                 ))
                             }
-                            <a href="https://drive.google.com/u/0/uc?id=1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp&export=download" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer flex items-center'>Resume &nbsp; <FaArrowDown /></a>
+                            <a href="https://drive.google.com/file/d/1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
 
                         </ul>
 
