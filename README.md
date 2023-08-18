@@ -1,6 +1,6 @@
 # Portfolio
 
-## Live (Link)[https://ras1k-portfolio.vercel.app/]
+## Live Site: [Link](https://ras1k-portfolio.vercel.app/)
 
 ## Technologies Used:
 * React/Vite
