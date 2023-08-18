@@ -81,10 +81,10 @@ const Navbar = () => {
                         <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
                             <div className="flex flex-col gap-8 py-2 relative">
                                 <div>
-                                    <div className='flex items-center gap-4'>
+                                    <div className='flex items-center gap-2'>
                                         <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
                                         <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-                                            Rasik&nbsp;<span className='sm:block hidden'>Abdullah</span>
+                                            Rasik&nbsp;<span className=''>Abdullah</span>
                                         </p>
                                     </div>
                                     <p className="text-sm text-gray-400 mt-2">

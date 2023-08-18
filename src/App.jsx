@@ -14,6 +14,7 @@ import Education from './components/Education/Education'
 import Skills from './components/Skills/Skills'
 import Footer from './components/Footer/Footer'
 import FooterBottom from './components/Footer/FooterBottom'
+import GithubCalender from './components/GithubCalender/GithubCalender'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <About />
         <Education />
         <Experience />
+        <GithubCalender />
         <Skills />
         {/* <Tech /> */}
         <Works />
