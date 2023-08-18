@@ -245,7 +245,7 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rasik proved me wrong.",
-      name: "Moammer Fershid Enan",
+      name: "Moammer Enan",
       designation: "Web Developer",
       company: "TalentPro",
       link:"https://talentpro.global/",
