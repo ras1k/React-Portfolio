@@ -19,7 +19,7 @@ const EducationCard = ({ education }) => (
         date={education.date}
         iconStyle={{ background: education.iconBg }}
         icon={
-            <div className="flex justify-center items-center h-full w-full">
+            <div className="flex justify-center items-center h-full w-full ">
                 <img src={education.icon}
                     alt={education.icon}
                     className="w-[60%] h-[60%] object-contain"

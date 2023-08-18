@@ -211,7 +211,7 @@ import {
       points: [
         "SSC",
         "Science Group",
-        "Got Scholarship",
+        "Received Scholarship",
       ],
     },
     {
@@ -232,7 +232,7 @@ import {
       iconBg: "#383E56",
       date: "2017 - 2022",
       points: [
-        "Bachelor Of Science in Computer Science & Engineering",
+        "BSC in Computer Science & Engineering",
         "Programming",
         "Artificial Intelligence",
         "Graduation",
@@ -262,7 +262,7 @@ import {
     },
     {
       testimonial:
-        "After Rasik optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Rasik optimized our website, our traffic increased by 50%. We can't thank him enough!",
       name: "Abdul Kadher Akib",
       designation: "Founder & CEO",
       company: "Top5Way",

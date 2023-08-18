@@ -24,7 +24,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="w-full h-full lg:ms-48">
+      <div className="w-full h-full lg:ms-48 text-center lg:text-left">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Links
         </h3>
@@ -40,11 +40,17 @@ const Footer = () => {
           <a href="https://drive.google.com/file/d/1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp/view?usp=sharing" target='_blank' rel='noreferrer' className='text-white text-xl font-medium cursor-pointer'>Resume</a>
         </ul>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full text-center lg:text-left">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
         <ul className="flex flex-col gap-4 font-medium py-6 overflow-hidden">
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Terms of Service
+              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
+            </span>
+          </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Authentication
@@ -59,7 +65,7 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Terms of Service
+              Over Right
               {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
             </span>
           </li>
@@ -69,15 +75,9 @@ const Footer = () => {
               {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
             </span>
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
         </ul>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full text-center lg:text-left">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           DEVELOPERS
         </h3>
@@ -102,13 +102,13 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Support
+              Open Source
               {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
             </span>
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
+              Support
               {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
             </span>
           </li>
