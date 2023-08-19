@@ -14,6 +14,7 @@
 * React Icons
 * React Parallax Tilt
 * React Simple Typewriter
-* React Vertical Timeline Eliment
-* Sweetalert
+* React Vertical Timeline Element
+* Sweetalert2
+* React TsParticles
   
