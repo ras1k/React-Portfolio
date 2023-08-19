@@ -15,6 +15,7 @@ import Skills from './components/Skills/Skills'
 import Footer from './components/Footer/Footer'
 import FooterBottom from './components/Footer/FooterBottom'
 import GithubCalender from './components/GithubCalender/GithubCalender'
+import ParticlesBg from './components/Particles/ParticlesBg'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
+          <ParticlesBg />
         </div>
         <About />
         <Education />
