@@ -248,7 +248,8 @@ import {
       name: "Moammer Enan",
       designation: "Web Developer",
       company: "TalentPro",
-      link:"https://talentpro.global/",
+      company_link:"https://talentpro.global/",
+      portfolio: "https://moammer-enan.com/",
       image: enan,
     },
     {
@@ -257,7 +258,8 @@ import {
       name: "Fahad Bin Munir",
       designation: "Software Engineer",
       company: "Fluent Conveyors",
-      link: "https://fluentconveyors.com/",
+      company_link: "https://fluentconveyors.com/",
+      portfolio: "https://www.linkedin.com/in/fahad-bin-munir-9a17b2183/",
       image: fahad,
     },
     {
@@ -266,7 +268,8 @@ import {
       name: "Abdul Kadher Akib",
       designation: "Founder & CEO",
       company: "Top5Way",
-      link: "https://top5way.com/",
+      company_link: "https://top5way.com/",
+      portfolio: "https://www.linkedin.com/in/akakib/",
       image: akib,
     },
   ];

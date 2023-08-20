@@ -12,6 +12,7 @@ const ParticlesBg = () => {
     const particlesLoaded = useCallback(async container => {
         await console.log(container);
     }, []);
+    
     return (
         <Particles
         id="tsparticles"
@@ -72,13 +73,13 @@ const ParticlesBg = () => {
                         enable: true,
                         area: 800,
                     },
-                    value: 50,
+                    value: 60,
                 },
                 opacity: {
                     value: 0.4,
                 },
                 shape: {
-                    type: "",
+                    type: "line",
                 },
                 size: {
                     value: { min: 1, max: 5 },
