@@ -5,6 +5,7 @@
 ## Technologies Used:
 * React/Vite
 * Tailwind CSS
+* Javascript
 * React Router Dom
 * Three Js
 * Framer Motion
