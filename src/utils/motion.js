@@ -1,6 +1,7 @@
 import { isMobile } from "react-device-detect";
 
 const noMotion = !isMobile;
+
 export const textVariant = (delay) => {
   if (noMotion) {
     return {

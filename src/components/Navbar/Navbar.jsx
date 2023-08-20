@@ -3,7 +3,8 @@ import { navLinks } from '../../constants'
 import { logo, menu, close } from '../../assets'
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaPhoneAlt } from "react-icons/fa";
+import { TfiEmail } from 'react-icons/tfi';
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -112,19 +113,35 @@ const Navbar = () => {
                                         Find me in
                                     </h2>
                                     <div className="flex gap-4">
-                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
+                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-lg inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
                                             <a href="https://www.facebook.com/ras1k/" target="_blank" rel="noreferrer"><FaFacebookF /></a>
                                         </span>
-                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
+                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-lg inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
                                             <a href="https://twitter.com/ras1k_" target="_blank" rel="noreferrer"><FaTwitter /></a>
                                         </span>
-                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
+                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-lg inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
                                             <a href="https://github.com/ras1k" target="_blank" rel="noreferrer"><FaGithub /></a>
                                         </span>
-                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
+                                        <span className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-lg inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;">
                                             <a href="https://www.linkedin.com/in/ras1k/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
                                         </span>
                                     </div>
+                                </div>
+                                <div className='flex flex-col gap-4'>
+                                    <p className=" text-gray-500 text-lg flex items-center gap-2">
+                                        <span>
+                                            <FaPhoneAlt />
+                                        </span>
+                                        <span><a href="tel:+8801633027613" target="_blank" rel="noreferrer">Call Now</a></span>
+                                    </p>
+                                    <p className=" text-gray-500 text-lg flex items-center  gap-2">
+                                        <span>
+                                            <TfiEmail />
+                                        </span>
+                                        <span>
+                                            <a href="mailto:rasikabdullah@gmail.com" target="_blank" rel="noreferrer">rasikabdullah@gmail.com</a>
+                                        </span>
+                                    </p>
                                 </div>
                                 {/* <span
                                     onClick={() => setShowMenu(false)}
