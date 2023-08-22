@@ -53,7 +53,7 @@ const Navbar = () => {
                             </li>
                         ))
                     }
-                    <a href="https://drive.google.com/file/d/1M4K6q4PqrRJWdtib1iFLzwi6rDncelvt/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
+                    <a href="https://drive.google.com/file/d/1MbIDQ9vLB1_ez_SAnhaPVOIZ5yb-25uL/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
                 </ul>
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -106,7 +106,7 @@ const Navbar = () => {
                                             </li>
                                         ))
                                     }
-                                    <a href="https://drive.google.com/file/d/1M4K6q4PqrRJWdtib1iFLzwi6rDncelvt/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
+                                    <a href="https://drive.google.com/file/d/1MbIDQ9vLB1_ez_SAnhaPVOIZ5yb-25uL/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-[18px] font-medium cursor-pointer'>Resume</a>
                                 </ul>
                                 <div className="flex flex-col gap-4">
                                     <h2 className="text-base uppercase font-titleFont mb-4">
