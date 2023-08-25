@@ -224,4 +224,4 @@ const Skills = () => {
   );
 }
 
-export default SectionWrapper(Skills, '')
+export default SectionWrapper(Skills, 'skills')
