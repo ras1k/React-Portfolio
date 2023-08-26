@@ -28,7 +28,7 @@ const Footer = () => {
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Links
         </h3>
-        <ul className='flex flex-col gap-4 font-medium text-secondary py-6 overflow-hidden'>
+        <ul className='flex flex-col gap-4 font-medium text-secondary py-6 overflow-hidden '>
           {
             navLinks.map((link) => (
               <li key={link.id}

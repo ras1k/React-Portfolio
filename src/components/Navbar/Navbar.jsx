@@ -38,7 +38,7 @@ const Navbar = () => {
                         window.scrollTo(0, 0);
                     }}>
                     <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-                    <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+                    <p className='text-white hover:text-[#915eff] text-[18px] font-bold cursor-pointer flex '>
                         Rasik&nbsp;<span className='sm:block hidden'>Abdullah</span>
                     </p>
                 </Link>
@@ -47,14 +47,14 @@ const Navbar = () => {
                         navLinks.map((link) => (
                             <li key={link.id}
                                 className={`${active === link.title ? 'text-[#915eff]' : 'text-secondary'
-                                    } hover:text-[#915eff] text-[18px] font-medium cursor-pointer`}
+                                    } hover:text-[#915eff] text-[18px] font-medium cursor-pointer transition ease-out hover:scale-125`}
                                 onClick={() => setActive(link.title)}
                             >
                                 <a href={`#${link.id}`}>{link.title}</a>
                             </li>
                         ))
                     }
-                    <a href="https://drive.google.com/file/d/1MbIDQ9vLB1_ez_SAnhaPVOIZ5yb-25uL/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary hover:text-[#915eff] text-[18px] font-medium cursor-pointer flex items-center'>Resume &nbsp; <LuExternalLink /></a>
+                    <a href="https://drive.google.com/file/d/1MbIDQ9vLB1_ez_SAnhaPVOIZ5yb-25uL/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary hover:text-[#915eff] transition ease-out hover:scale-125 text-[18px] font-medium cursor-pointer flex items-center'>Resume &nbsp; <LuExternalLink /></a>
                 </ul>
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
