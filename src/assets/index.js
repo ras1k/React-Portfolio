@@ -46,6 +46,7 @@ import quiz from './quiz-hero.png';
 import chef from './chef-hunter.png';
 import kidzee from './kidzee-toy.png';
 import portfolio from './portfolio.png';
+import weather from './weather-react.png'
 
 
 import enan from './testimonials/enan.jpg';
@@ -101,5 +102,6 @@ export {
   enan,
   fahad,
   akib,
-  bannerImg
+  bannerImg,
+  weather
 };
