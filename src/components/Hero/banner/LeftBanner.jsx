@@ -28,7 +28,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I am a Computer Science Graduate. Front-end web developer specializing in React.js. With a strong foundation in HTML, CSS, and JavaScript.
+          I am a Computer Science Graduate & a Front-end web developer specializing in React.js. With a strong foundation in HTML, CSS, and JavaScript.
         </p>
       </div>
       {/* Media */}
