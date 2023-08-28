@@ -103,6 +103,19 @@ const Skills = () => {
               </span>
             </div>
             <div className="overflow-x-hidden">
+              <p className="text-sm uppercase font-medium">Next js</p>
+              <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.75, delay: 0.75 }}
+                  className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                >
+                  <span className="absolute -top-7 right-0">75%</span>
+                </motion.span>
+              </span>
+            </div>
+            <div className="overflow-x-hidden">
               <p className="text-sm uppercase font-medium">Firebase</p>
               <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
                 <motion.span
@@ -127,7 +140,7 @@ const Skills = () => {
         </div> */}
           <div className="flex flex-col gap-6">
             <div className="overflow-x-hidden">
-              <p className="text-sm uppercase font-medium">React</p>
+              <p className="text-sm uppercase font-medium">React js</p>
               <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
@@ -146,9 +159,9 @@ const Skills = () => {
                   initial={{ x: "-100%", opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.75, delay: 0.75 }}
-                  className="w-[65%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                  className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                 >
-                  <span className="absolute -top-7 right-0">65%</span>
+                  <span className="absolute -top-7 right-0">75%</span>
                 </motion.span>
               </span>
             </div>
@@ -166,7 +179,20 @@ const Skills = () => {
               </span>
             </div>
             <div className="overflow-x-hidden">
-              <p className="text-sm uppercase font-medium">Mongo db</p>
+              <p className="text-sm uppercase font-medium">TypeScript</p>
+              <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.75, delay: 0.75 }}
+                  className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                >
+                  <span className="absolute -top-7 right-0">60%</span>
+                </motion.span>
+              </span>
+            </div>
+            <div className="overflow-x-hidden">
+              <p className="text-sm uppercase font-medium">Mongo DB</p>
               <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
@@ -179,7 +205,7 @@ const Skills = () => {
               </span>
             </div>
             <div className="overflow-x-hidden">
-              <p className="text-sm uppercase font-medium">material ui</p>
+              <p className="text-sm uppercase font-medium">Material ui</p>
               <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
@@ -192,7 +218,7 @@ const Skills = () => {
               </span>
             </div>
             <div className="overflow-x-hidden">
-              <p className="text-sm uppercase font-medium">git</p>
+              <p className="text-sm uppercase font-medium">GitHub</p>
               <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
