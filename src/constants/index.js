@@ -388,7 +388,7 @@ import {
     {
       name: "Developer Portfolio",
       description:
-        "A simple yet beautifully designed developer portfolio website using modern technologies for beginner wen developers ",
+        "A simple yet beautifully designed portfolio website using modern technologies for web developers ",
       tags: [
         {
           name: "react",
