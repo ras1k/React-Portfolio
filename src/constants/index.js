@@ -169,15 +169,16 @@ import {
   ];
   const educations = [
     {
-      title: "Secondary School",
-      school_name: "Comilla Modern High School",
-      icon: modern,
+      title: "Undergrad School",
+      school_name: "Premier University, Chittagong",
+      icon: puc,
       iconBg: "#383E56",
-      date: "2009 - 2014",
+      date: "2017 - 2022",
       points: [
-        "SSC",
-        "Science Group",
-        "Received Scholarship",
+        "BSC in Computer Science & Engineering",
+        "Programming",
+        "Artificial Intelligence",
+        "Graduation",
       ],
     },
     {
@@ -192,16 +193,15 @@ import {
       ],
     },
     {
-      title: "Undergrad School",
-      school_name: "Premier University, Chittagong",
-      icon: puc,
+      title: "Secondary School",
+      school_name: "Comilla Modern High School",
+      icon: modern,
       iconBg: "#383E56",
-      date: "2017 - 2022",
+      date: "2009 - 2014",
       points: [
-        "BSC in Computer Science & Engineering",
-        "Programming",
-        "Artificial Intelligence",
-        "Graduation",
+        "SSC",
+        "Science Group",
+        "Received Scholarship",
       ],
     },
 
