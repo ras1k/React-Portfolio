@@ -16,10 +16,9 @@ import Footer from './components/Footer/Footer'
 import FooterBottom from './components/Footer/FooterBottom'
 import GithubCalender from './components/GithubCalender/GithubCalender'
 import ParticlesBg from './components/Particles/ParticlesBg'
+// import AnimatedCursor from "react-animated-cursor"
 
 function App() {
-
-
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
@@ -32,6 +31,7 @@ function App() {
         <Education />
         <Experience />
         <GithubCalender />
+        {/* <AnimatedCursor /> */}
         <Skills />
         {/* <Tech /> */}
         <Works />
@@ -48,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

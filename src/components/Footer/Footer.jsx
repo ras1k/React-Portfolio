@@ -3,10 +3,12 @@ import { logo } from "../../assets"
 import { SectionWrapper } from "../../hoc";
 import { Link } from "react-router-dom";
 import { navLinks } from '../../constants'
+import fanimation from '../../assets/animation.json';
+import Lottie from "lottie-react";
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto border-b-[1px] border-b-black flex lg:flex-row flex-col items-center justify-around gap-10">
+    <div className="w-full lg:ps-8 h-auto border-b-[1px] border-b-black flex lg:flex-row flex-col items-center justify-center gap-10">
       <div className="w-full h-full flex lg:flex-col items-center gap-8">
         <Link to='/'><img className="w-1/2" src={logo} alt="logo" /></Link>
         <div className="flex gap-4">
@@ -24,7 +26,10 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="w-full h-full lg:ms-48">
+      <div className="lg:ml-24">
+        <Lottie animationData={fanimation} loop={true} />
+      </div>
+      <div className="w-full h-full lg:ml-48">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Links
         </h3>
@@ -37,83 +42,9 @@ const Footer = () => {
               </li>
             ))
           }
-          {/* <a href="https://drive.google.com/file/d/1QyyNUnaj3dhWjjlnxV_awH4kMLJR4fBp/view?usp=sharing" target='_blank' rel='noreferrer' className='text-secondary text-xl font-medium cursor-pointer'>Resume</a> */}
         </ul>
       </div>
-      <div className="w-full h-full ">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          RESOURCES
-        </h3>
-        <ul className="flex flex-col gap-4 text-secondary font-medium py-6 overflow-hidden">
-          <li>
-            <span className="w-full text-lg  relative hover:text-designColor duration-300 group cursor-pointer">
-              Terms of Service
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              System Status
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
-        </h3>
-        <ul className="flex flex-col gap-4 font-medium text-secondary overflow-hidden py-6">
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Documentation
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Support
-              {/* <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span> */}
-            </span>
-          </li>
-        </ul>
-      </div>
+
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { TfiEmail } from "react-icons/tfi";
 
 const FooterBottom = () => {
   return (
-    <div className="w-full py-10">
+    <div className="w-full pb-10">
       <p className=" text-gray-500 text-base flex items-center justify-center gap-2">
         <span>
           <FaPhoneAlt />

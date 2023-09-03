@@ -5,7 +5,7 @@ import { styles } from "../../../styles";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Programmer_", "MERN Stack Developer_", "UI Designer_", "Content Writer_", "Tech Enthusiast_"],
+    words: ["Programmer_", "MERN Stack Developer_", "Web Designer_", "Content Writer_", "Tech Enthusiast_"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 10,
