@@ -16,6 +16,7 @@ import Footer from './components/Footer/Footer'
 import FooterBottom from './components/Footer/FooterBottom'
 import GithubCalender from './components/GithubCalender/GithubCalender'
 import ParticlesBg from './components/Particles/ParticlesBg'
+import Maps from './components/Maps/Maps'
 // import AnimatedCursor from "react-animated-cursor"
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         {/* <Tech /> */}
         <Works />
         <Feedbacks />
+        <Maps />
         <div className='relative z-0'>
           <Contacts />
           <StarsCanvas />

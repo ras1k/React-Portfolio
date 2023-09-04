@@ -5,7 +5,7 @@ import { loadSlim } from "tsparticles-slim";
 
 const ParticlesBg = () => {
     const particlesInit = useCallback(async engine => {
-        console.log(engine);
+        // console.log(engine);
         await loadSlim(engine);
     }, []);
 
@@ -43,7 +43,7 @@ const ParticlesBg = () => {
                     },
                     repulse: {
                         distance: 200,
-                        duration: 0.4,
+                        duration: 0.45,
                     },
                 },
             },

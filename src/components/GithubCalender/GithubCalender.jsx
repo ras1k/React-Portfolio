@@ -5,6 +5,7 @@ import GitHubCalendar from "react-github-calendar";
 import { SectionWrapper } from "../../hoc";
 
 const GithubCalender = () => {
+    
     // const selectLastHalfYear = contributions => {
     //     const currentYear = new Date().getFullYear();
     //     const currentMonth = new Date().getMonth();
@@ -41,9 +42,6 @@ const GithubCalender = () => {
                 </div>
             </div>
         </div>
-
-
-
     );
 };
 

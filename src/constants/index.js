@@ -344,7 +344,7 @@ import {
     {
       name: "Weather App",
       description:
-        "A front-end web application that fetches data from openweathermap and shows real time weather updates. ",
+        "The React Weather App is a mobile-responsive web app built with React.js and styled using Tailwind CSS. It fetches real-time weather data from the OpenWeatherMap API, providing users with up-to-date weather information for any location worldwide.",
       tags: [
         {
           name: "react",
