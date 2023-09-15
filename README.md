@@ -9,7 +9,7 @@
 * Tailwind CSS
 * Javascript
 * React Router Dom
-* Higher Order Component
+* Higher Order Components
 * Three Js
 * Framer Motion
 * Maath
