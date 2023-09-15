@@ -2,7 +2,7 @@
 
 ## Live Site: [Link](https://ras1k-portfolio.vercel.app/)
 
-![Screenshot 2023-08-23 022606](https://github.com/ras1k/React-Portfolio/assets/50275922/3d2dc948-6557-4e54-a96c-c7c344b848c7)
+![Home Page](https://github.com/ras1k/React-Portfolio/assets/50275922/3d2dc948-6557-4e54-a96c-c7c344b848c7)
 
 ## Technologies Used:
 * React/Vite
