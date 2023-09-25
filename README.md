@@ -22,6 +22,5 @@
 * React Vertical Timeline Element
 * Sweetalert2
 * React TsParticles
-* TsParticles Slim
 * React Device Detect
   
