@@ -5,7 +5,7 @@ import { styles } from "../../../styles";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Programmer_", "MERN Stack Developer_", "Web Designer_", "Content Writer_", "Tech Enthusiast_"],
+    words: ["Programmer", "MERN Stack Developer", "Web Designer", "Content Writer", "Tech Enthusiast"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 10,
@@ -20,12 +20,14 @@ const LeftBanner = () => {
         </h1> */}
         <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className="text-[#915eff]">Rasik_</span></h1>
         <h2 className="text-3xl font-bold text-white">
-          a <span>{text}</span>
+          <span className="font-light">&lt;</span> a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
-          />
+          /> &nbsp;
+          <span className="font-light">/&gt;</span>
+
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
           I am a Computer Science Graduate & a Front-end web developer specializing in React.js. With a strong foundation in HTML, CSS, and JavaScript.
