@@ -1,6 +1,5 @@
-import { Map, Marker, /*Overlay ,*/ ZoomControl } from "pigeon-maps";
+import { Map, Marker, ZoomControl } from "pigeon-maps";
 import { useState } from "react"
-// import img from '../../assets/rasik.png';
 
 const MapsExample = () => {
     const [hue, setHue] = useState(0)
