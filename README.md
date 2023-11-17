@@ -12,7 +12,6 @@
 * Higher Order Components
 * Three Js
 * Framer Motion
-* Maath
 * Moment Js
 * Email Js
 * React Github Calender
