@@ -161,7 +161,7 @@ import {
       company_name: "Mass Group",
       icon: mass,
       iconBg: "#383E56",
-      date: "December 2022 - Running",
+      date: "December 2022 - February 2023",
       points: [
         "Developing and maintaining web applications using HTML, CSS, PHP, JS & JQuery",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
