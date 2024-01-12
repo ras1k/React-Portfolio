@@ -1,6 +1,7 @@
 # Portfolio
 
-## Live Site: [Link](https://ras1k-portfolio.vercel.app/)
+## Link: 
+* [Live Link](https://ras1k-portfolio.vercel.app/)
 
 ![Home Page](https://github.com/ras1k/React-Portfolio/assets/50275922/3d2dc948-6557-4e54-a96c-c7c344b848c7)
 
@@ -12,7 +13,6 @@
 * Higher Order Components
 * Three Js
 * Framer Motion
-* Maath
 * Moment Js
 * Email Js
 * React Github Calender
