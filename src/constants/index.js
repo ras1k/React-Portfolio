@@ -161,14 +161,26 @@ import {
       company_name: "Mass Group",
       icon: mass,
       iconBg: "#383E56",
-      date: "December 2022 - April 2023",
+      date: "December 2022 - Running",
       points: [
         "Developing and maintaining web applications using HTML, CSS, PHP, JS & JQuery",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
-
+    {
+      title: "Front End Developer",
+      company_name: "Rixo Tech",
+      icon: rixo,
+      iconBg: "white",
+      date: "December 2022 - Running",
+      points: [
+        "It's a project based freelance team",
+        "Developing and maintaining web applications using HTML, CSS, ReactJs, NextJs, Typescript",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+      ],
+    },
     {
       title: "IT Executive",
       company_name: "Walia Air International",
@@ -176,9 +188,10 @@ import {
       iconBg: "#383E56",
       date: "December 2023 - Running",
       points: [
-        "Developing and maintaining web applications using HTML, CSS, PHP, JS & JQuery",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Managing and maintaining IT infrastructure, including servers, networks, and security systems.",
+        "Collaborating with internal teams to identify and address IT needs and challenges.",
+        "Providing technical support to end-users, troubleshooting hardware and software issues.",
+        "Implementing and managing IT policies to ensure data security and compliance.",
       ],
     },
   ];
