@@ -25,6 +25,8 @@ import {
     // vercel,
     github,
     mass,
+    rixo,
+    walia,
     // carrent,
     // jobit,
     // tripguide,
@@ -160,6 +162,19 @@ import {
       icon: mass,
       iconBg: "#383E56",
       date: "December 2022 - April 2023",
+      points: [
+        "Developing and maintaining web applications using HTML, CSS, PHP, JS & JQuery",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+      ],
+    },
+
+    {
+      title: "IT Executive",
+      company_name: "Walia Air International",
+      icon: walia,
+      iconBg: "#383E56",
+      date: "December 2023 - Running",
       points: [
         "Developing and maintaining web applications using HTML, CSS, PHP, JS & JQuery",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
