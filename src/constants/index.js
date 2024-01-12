@@ -159,6 +159,7 @@ import {
     {
       title: "Trainee Programmer",
       company_name: "Mass Group",
+      company_link: "http://massgroupbd.com/",
       icon: mass,
       iconBg: "#383E56",
       date: "December 2022 - February 2023",
@@ -171,6 +172,7 @@ import {
     {
       title: "Front End Developer",
       company_name: "Rixo Tech",
+      company_link: "https://www.linkedin.com/company/rixotech/",
       icon: rixo,
       iconBg: "white",
       date: "December 2022 - Running",
@@ -184,6 +186,7 @@ import {
     {
       title: "IT Executive",
       company_name: "Walia Air International",
+      company_link: "https://www.facebook.com/profile.php?id=100089075314547",
       icon: walia,
       iconBg: "#383E56",
       date: "December 2023 - Running",
