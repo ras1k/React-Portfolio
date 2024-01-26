@@ -35,6 +35,7 @@ import starbucks from "./company/starbucks.png";
 import mass from "./company/mass.png";
 import rixo from "./company/rixo.png";
 import walia from "./company/walia.png";
+import htbbd from "./company/htbbd.png";
 import tesla from "./company/tesla.png";
 
 import modern from './school/modern.jpg';
@@ -92,6 +93,7 @@ export {
   mass,
   walia,
   rixo,
+  htbbd,
   tesla,
   kidzee,
   summer,
