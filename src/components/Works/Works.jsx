@@ -33,25 +33,35 @@ const ProjectCard = ({
             />
   
             <div className='absolute inset-0 flex justify-between m-3 card-img_hover'>
-              <div
-                onClick={() => window.open(live_site_link, "_blank")}
-                className='green-pink-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-out hover:scale-125'
-              >
-                <img
-                  src={live}
-                  alt='Live Site'
-                  className='w-1/2 h-1/2 object-contain'
-                />
+              <div className='relative group'>
+                <div
+                  onClick={() => window.open(live_site_link, "_blank")}
+                  className='green-pink-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-out hover:scale-125'
+                >
+                  <img
+                    src={live}
+                    alt='Live Site'
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+                </div>
+                <span className='absolute w-[75px] top-[50px] h-[25px] bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block px-2 py-1 text-xs font-semibold bg-white text-black rounded'>
+                  Live Link
+                </span>
               </div>
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-out hover:scale-125'
-              >
-                <img
-                  src={github}
-                  alt='source code'
-                  className='w-1/2 h-1/2 object-contain'
-                />
+              <div className='relative group'>
+                <div
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer transition ease-out hover:scale-125'
+                >
+                  <img
+                    src={github}
+                    alt='source code'
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+                </div>
+                <span className='absolute w-[135px] top-[50px] h-[25px] bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block px-2 py-1 text-xs font-semibold bg-white text-black rounded'>
+                  Github Repository
+                </span>
               </div>
             </div>
           </div>
@@ -107,4 +117,3 @@ const ProjectCard = ({
   };
   
   export default SectionWrapper(Works, "projects");
-  
