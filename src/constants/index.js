@@ -44,7 +44,8 @@ import {
     fahad,
     akib,
     portfolio,
-    weather
+    weather,
+    coffee
 } from "../assets";
 
 export const navLinks = [{
@@ -344,6 +345,30 @@ const projects = [{
         image: bistro,
         source_code_link: "https://github.com/ras1k/bistro-boss-client",
         live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
+    },
+    {
+        name: "Coffee Exploration LLC",
+        description: "An eCommerce site that sells coffee beans and franchise",
+        tags: [{
+                name: "nuxt",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "laravel",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "tailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: coffee,
+        source_code_link: "https://github.com/ras1k/coffee-shop",
+        live_site_link: "https://coffee-explorationllc.vercel.app/"
     },
     {
         name: "Kidzee - A Toy Marketplace",

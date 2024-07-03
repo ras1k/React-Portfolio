@@ -50,6 +50,8 @@ import chef from './chef-hunter.png';
 import kidzee from './kidzee-toy.png';
 import portfolio from './portfolio.png';
 import weather from './weather-react.png'
+import coffee from './coffee.png'
+
 
 
 import enan from './testimonials/enan.jpg';
@@ -109,5 +111,6 @@ export {
   fahad,
   akib,
   bannerImg,
-  weather
+  weather,
+  coffee
 };
