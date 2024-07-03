@@ -45,7 +45,8 @@ import {
     akib,
     portfolio,
     weather,
-    coffee
+    coffee,
+    hrm,
 } from "../assets";
 
 export const navLinks = [{
@@ -303,6 +304,54 @@ const projects = [{
         live_site_link: "https://summer-school-camp-a853f.web.app/"
     },
     {
+        name: "Coffee Exploration LLC",
+        description: "An eCommerce site that sells coffee beans and franchise",
+        tags: [{
+                name: "nuxtJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "laravel",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "tailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: coffee,
+        source_code_link: "https://github.com/ras1k/coffee-shop",
+        live_site_link: "https://coffee-explorationllc.vercel.app/"
+    },
+    {
+        name: "HRM System",
+        description: "A searchable and filterable list of all employees, with detailed profiles including personal information, job roles, contact details, and work history.",
+        tags: [{
+                name: "vueJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "laravel",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "tailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: hrm,
+        source_code_link: "http://gitlab.htbbd.com/htb-hr/htb-hr-frontend",
+        live_site_link: "https://hrm.islamicdigitallane.com/Dashboard"
+    },
+    {
         name: "Quiz Hero",
         description: "Web application that allows users to participate in a javascript quiz test and evaluate test.",
         tags: [{
@@ -345,30 +394,6 @@ const projects = [{
         image: bistro,
         source_code_link: "https://github.com/ras1k/bistro-boss-client",
         live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
-    },
-    {
-        name: "Coffee Exploration LLC",
-        description: "An eCommerce site that sells coffee beans and franchise",
-        tags: [{
-                name: "nuxt",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "laravel",
-                color: "orange-text-gradient",
-            },
-            {
-                name: "tailwindCSS",
-                color: "green-text-gradient",
-            },
-            {
-                name: "mySql",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: coffee,
-        source_code_link: "https://github.com/ras1k/coffee-shop",
-        live_site_link: "https://coffee-explorationllc.vercel.app/"
     },
     {
         name: "Kidzee - A Toy Marketplace",

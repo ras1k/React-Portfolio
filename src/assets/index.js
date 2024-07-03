@@ -49,8 +49,9 @@ import quiz from './quiz-hero.png';
 import chef from './chef-hunter.png';
 import kidzee from './kidzee-toy.png';
 import portfolio from './portfolio.png';
-import weather from './weather-react.png'
-import coffee from './coffee.png'
+import weather from './weather-react.png';
+import coffee from './coffee.png';
+import hrm from './hrm.png';
 
 
 
@@ -112,5 +113,6 @@ export {
   akib,
   bannerImg,
   weather,
-  coffee
+  coffee,
+  hrm
 };
