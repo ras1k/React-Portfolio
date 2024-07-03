@@ -52,6 +52,7 @@ import portfolio from './portfolio.png';
 import weather from './weather-react.png';
 import coffee from './coffee.png';
 import hrm from './hrm.png';
+import masjid from './masjid.png';
 
 
 
@@ -114,5 +115,6 @@ export {
   bannerImg,
   weather,
   coffee,
-  hrm
+  hrm,
+  masjid
 };

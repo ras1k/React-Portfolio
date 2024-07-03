@@ -47,6 +47,7 @@ import {
     weather,
     coffee,
     hrm,
+    masjid,
 } from "../assets";
 
 export const navLinks = [{
@@ -283,7 +284,7 @@ const projects = [{
         name: "Summer Camp School",
         description: "Web-based platform that allows users to search, book, and manage musical classes from various instructors, providing a convenient and efficient solution for free time in summer break.",
         tags: [{
-                name: "react",
+                name: "reactJS",
                 color: "blue-text-gradient",
             },
             {
@@ -350,6 +351,30 @@ const projects = [{
         image: hrm,
         source_code_link: "http://gitlab.htbbd.com/htb-hr/htb-hr-frontend",
         live_site_link: "https://hrm.islamicdigitallane.com/Dashboard"
+    },
+    {
+        name: "IDL Masjid",
+        description: "Website for Islamic Digital Lane Masjid",
+        tags: [{
+                name: "vueJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "laravel",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "tailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySql",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: masjid,
+        source_code_link: "http://gitlab.htbbd.com/websitesystem-clothing/websitesystem-masjid/websitesystem-masjid-idl/idl-mashjid-frontend",
+        live_site_link: "https://idl-mashjid.islamicdigitallane.com/"
     },
     {
         name: "Quiz Hero",
