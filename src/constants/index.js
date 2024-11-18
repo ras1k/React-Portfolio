@@ -132,7 +132,7 @@ const technologies = [{
     //   icon: redux,
     // },
     {
-        name: "Tailwind CSS",
+        name: "tailwindCss",
         icon: tailwind,
     },
     // {
@@ -207,7 +207,7 @@ const experiences = [{
         iconBg: "white",
         date: "January 2024 - Running",
         points: [
-            "Developing and maintaining web applications using HTML, CSS, Vue.Js, Tailwind CSS",
+            "Developing and maintaining web applications using HTML, CSS, Vue.Js, tailwindCss",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
         ],
@@ -389,7 +389,7 @@ const projects = [{
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind css",
+                name: "tailwindCss",
                 color: "pink-text-gradient",
             },
         ],
@@ -409,7 +409,7 @@ const projects = [{
     //             color: "orange-text-gradient",
     //         },
     //         {
-    //             name: "tailwind css",
+    //             name: "tailwindCss",
     //             color: "green-text-gradient",
     //         },
     //         {
@@ -422,28 +422,28 @@ const projects = [{
     //     live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
     // },
     {
-        name: "Bistro Boss Restaurant",
-        description: "A comprehensive restaurant website that allows users to view full menu & book foods & pay online",
+        name: "IDL Online Academy",
+        description: "An online learning platform with management system.",
         tags: [{
-                name: "react",
+                name: "Vue.Js",
                 color: "blue-text-gradient",
             },
             {
-                name: "node",
+                name: "Laravel",
                 color: "orange-text-gradient",
             },
             {
-                name: "tailwind css",
+                name: "tailwindCss",
                 color: "green-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "MySQL",
                 color: "pink-text-gradient",
             },
         ],
         image: IdlOnline,
-        source_code_link: "https://online-academy.islamicdigitallane.com/",
-        live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
+        source_code_link: "http://gitlab.htbbd.com/websitesystem-clothing/idl-online-academy/idl-online-academy-frontend",
+        live_site_link: "https://online-academy.islamicdigitallane.com/"
     },
     {
         name: "Kidzee - A Toy Marketplace",
@@ -457,7 +457,7 @@ const projects = [{
                 color: "orange-text-gradient",
             },
             {
-                name: "tailwind css",
+                name: "tailwindCss",
                 color: "green-text-gradient",
             },
             {
@@ -471,7 +471,7 @@ const projects = [{
     },
     {
         name: "Weather App",
-        description: "The React Weather App is a mobile-responsive web app built with React.js and styled using Tailwind CSS. It fetches real-time weather data from the OpenWeatherMap API, providing users with up-to-date weather information for any location worldwide.",
+        description: "The React Weather App is a mobile-responsive web app built with React.js and styled using tailwindCss. It fetches real-time weather data from the OpenWeatherMap API, providing users with up-to-date weather information for any location worldwide.",
         tags: [{
                 name: "react",
                 color: "blue-text-gradient",
@@ -503,7 +503,7 @@ const projects = [{
     //       color: "orange-text-gradient",
     //     },
     //     {
-    //       name: "tailwind css",
+    //       name: "tailwindCss",
     //       color: "green-text-gradient",
     //     },
     //   ],
@@ -523,7 +523,7 @@ const projects = [{
                 color: "orange-text-gradient",
             },
             {
-                name: "tailwind css",
+                name: "tailwindCss",
                 color: "green-text-gradient",
             },
             {
