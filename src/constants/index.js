@@ -48,6 +48,7 @@ import {
     coffee,
     hrm,
     masjid,
+    IdlOnline
 } from "../assets";
 
 export const navLinks = [{
@@ -396,6 +397,30 @@ const projects = [{
         source_code_link: "https://github.com/ras1k/quiz-hero-javascript",
         live_site_link: "https://quiz-hero-javascript.netlify.app/"
     },
+    // {
+    //     name: "Bistro Boss Restaurant",
+    //     description: "A comprehensive restaurant website that allows users to view full menu & book foods & pay online",
+    //     tags: [{
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "node",
+    //             color: "orange-text-gradient",
+    //         },
+    //         {
+    //             name: "tailwind css",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "mongodb",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: bistro,
+    //     source_code_link: "https://github.com/ras1k/bistro-boss-client",
+    //     live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
+    // },
     {
         name: "Bistro Boss Restaurant",
         description: "A comprehensive restaurant website that allows users to view full menu & book foods & pay online",
@@ -416,8 +441,8 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: bistro,
-        source_code_link: "https://github.com/ras1k/bistro-boss-client",
+        image: IdlOnline,
+        source_code_link: "https://online-academy.islamicdigitallane.com/",
         live_site_link: "https://bistro-boss-c440e.firebaseapp.com/"
     },
     {

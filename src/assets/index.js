@@ -53,6 +53,7 @@ import weather from './weather-react.png';
 import coffee from './coffee.png';
 import hrm from './hrm.png';
 import masjid from './masjid.png';
+import IdlOnline from './IDL_Online.png';
 
 
 
@@ -116,5 +117,6 @@ export {
   weather,
   coffee,
   hrm,
-  masjid
+  masjid,
+  IdlOnline
 };
