@@ -5,7 +5,7 @@ import { styles } from "../../../styles";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Programmer", "MERN Stack Developer", "Web Designer", "Content Writer", "Tech Enthusiast"],
+    words: ["Programmer", "Web Developer", "Content Writer", "Tech Enthusiast"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 10,
@@ -19,7 +19,7 @@ const LeftBanner = () => {
           Hi, I&apos;m <span className="text-designColor capitalize">Rasik Abdullah</span>
         </h1> */}
         <h1 className={`${styles.heroHeadText}`}>Hi, I&apos;m <span className="text-[#915eff]">Rasik_</span></h1>
-        <h2 className="text-3xl font-bold text-white">
+        <h2 className="text-2xl lg:text-3xl font-bold text-white">
           <span className="font-light">&lt;</span> a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -30,7 +30,7 @@ const LeftBanner = () => {
 
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a Computer Science Graduate & a Front-end web developer specializing in React.js. With a strong foundation in HTML, CSS, and JavaScript.
+          I am a Computer Science Graduate & a Front-end web developer specializing in React.js, Vue.Js. With a strong foundation in HTML, CSS, and JavaScript.
         </p>
       </div>
       {/* Media */}

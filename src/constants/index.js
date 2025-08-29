@@ -177,7 +177,7 @@ const experiences = [{
         company_link: "https://www.linkedin.com/company/rixotech/",
         icon: rixo,
         iconBg: "white",
-        date: "December 2023 - Running",
+        date: "December 2023 - June 2024",
         points: [
             "It's a project based freelance team",
             "Developing and maintaining web applications using HTML, CSS, ReactJs, NextJs, Typescript",
@@ -200,14 +200,14 @@ const experiences = [{
     //   ],
     // },
     {
-        title: "Junior Software Engineer",
+        title: "Software Engineer",
         company_name: "Hi-Tech Bangla (Bangladesh)",
         company_link: "http://htbbd.com/",
         icon: htbbd,
         iconBg: "white",
         date: "January 2024 - Running",
         points: [
-            "Developing and maintaining web applications using HTML, CSS, Vue.Js, tailwindCss",
+            "Developing and maintaining web applications using HTML, CSS, Vue.Js, TailwindCss",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
         ],
