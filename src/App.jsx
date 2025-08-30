@@ -18,6 +18,7 @@ import GithubCalender from './components/GithubCalender/GithubCalender'
 import ParticlesBg from './components/Particles/ParticlesBg'
 import Maps from './components/Maps/Maps'
 // import AnimatedCursor from "react-animated-cursor"
+import { isMobile } from "react-device-detect";
 
 function App() {
   return (
@@ -31,7 +32,9 @@ function App() {
         <About />
         <Education />
         <Experience />
+        <span class="hidden md:block lg:block">
         <GithubCalender />
+        </span>
         {/* <AnimatedCursor /> */}
         <Skills />
         {/* <Tech /> */}
