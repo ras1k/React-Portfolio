@@ -19,7 +19,7 @@ const MapsExample = () => {
                     provider={mapTiler}
                     dprs={[1, 2]}
                     height={300}
-                    defaultCenter={[22.3685, 91.7964]}
+                    defaultCenter={[23.4753, 91.1812]}
                     defaultZoom={11}
                 >
                     {/* <Overlay anchor={[22.3685, 91.7964]} offset={[0, 0]}>
@@ -27,7 +27,7 @@ const MapsExample = () => {
                     </Overlay> */}
                     <Marker
                         width={50}
-                        anchor={[22.3685, 91.7964]}
+                        anchor={[23.4753, 91.1812]}
                         color={color}
                         onClick={() => setHue(hue + 30)}
                     />
