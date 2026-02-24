@@ -60,6 +60,7 @@ import IdlOnline from './IDL_Online.png';
 import enan from './testimonials/enan.jpg';
 import fahad from './testimonials/fahad.jpg';
 import akib from './testimonials/akib.jpg';
+import ishmam from './testimonials/ishmam.jpeg';
 
 import bannerImg from './bannerImg.png'
 
@@ -113,6 +114,7 @@ export {
   enan,
   fahad,
   akib,
+  ishmam,
   bannerImg,
   weather,
   coffee,

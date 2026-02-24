@@ -43,6 +43,7 @@ import {
   enan,
   fahad,
   akib,
+  ishmam,
   portfolio,
   weather,
   coffee,
@@ -76,11 +77,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front End Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "MERN Stack Developer",
+    title: "Web Developer",
     icon: mobile,
   },
   {
@@ -88,7 +89,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "Tech Solutions",
+    title: "Tech Enthusiast",
     icon: backend,
   },
 ];
@@ -273,13 +274,13 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rasik optimized our website, our traffic increased by 50%. We can't thank him enough!",
-    name: "Abdul Kadher Akib",
-    designation: "Founder & CEO",
-    company: "Top5Way",
-    company_link: "https://top5way.com/",
-    portfolio: "https://www.linkedin.com/in/akakib/",
-    image: akib,
+      "I had the pleasure of managing Abdullah Bin Malek (Rasik) since January 2024, and during this time he consistently proved himself to be an exceptionally talented and dedicated developer. Rasik has a remarkable ability to grasp new concepts quickly-whether it's a new technology, a complex requirement, or a challenging architecture. His curiosity, adaptability, and strong problem-solving mindset make him stand out.",
+    name: "Ishmam Bin Azim",
+    designation: "Senior Software Engineer",
+    company: "Hi-Tech Bangla (Bangladesh)",
+    company_link: "https://www.htbbd.com/",
+    portfolio: "https://www.linkedin.com/in/ishmam99/",
+    image: ishmam,
   },
 ];
 
